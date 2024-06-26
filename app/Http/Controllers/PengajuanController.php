@@ -38,7 +38,7 @@ class PengajuanController extends Controller
     }
 
     /**
-    * Display the specified resource.
+    * Display the specified resource
     * @param  \App\Pengajuan 
     * @return \Illuminate\Http\Response
     */
