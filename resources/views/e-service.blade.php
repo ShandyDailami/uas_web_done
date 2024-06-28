@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ URL('storage/images/ULM.png') }}" type="image/x-icon">
-    <title>Halaman Dashboard</title>
+    <title>Halaman e-Service</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         * {
@@ -125,8 +125,7 @@
             font-size: 1rem;
         }
 
-        .menu a {
-            width: 100%;
+        .e-service {
             display: block;
             margin: 10px 0;
             padding: 10px 15px;
@@ -137,10 +136,20 @@
             font-weight: 500;
         }
 
-        .menu i {
+        .e-service i {
             color: #0E8BCA;
             margin-right: 15px;
             font-size: 1.2rem;
+        }
+
+        .menu a {
+            width: 100%;
+            display: block;
+            margin: 10px 0;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 8px;
+            font-weight: 500;
         }
 
         .layanan a,
@@ -154,6 +163,7 @@
             font-weight: 500;
         }
 
+        .menu a:hover,
         .layanan a:hover,
         .other a:hover {
             background-color: #F1F5F9;
@@ -373,7 +383,7 @@
             </div>
             <div class="layanan">
                 <p>Layanan</p>
-                <a href="{{ route('/e-service') }}"><i class="bi bi-envelope"></i> e-Service</a>
+                <a class="e-service" href="{{ route('/e-service') }}"><i class="bi bi-envelope"></i> e-Service</a>
                 <a href=""><i class="bi bi-chat-square-text"></i> e-Command Center</a>
                 <a href=""><i class="bi bi-display"></i></i> e-Response</a>
                 <a href=""><i class="bi bi-credit-card"></i> e-Commerce</a>

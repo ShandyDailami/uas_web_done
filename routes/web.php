@@ -22,3 +22,6 @@ Route::get('/daftar', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('/dashboard');
+Route::get('/e-service', function () {
+    return view('e-service');
+})->name('/e-service');
