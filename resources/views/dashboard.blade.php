@@ -19,7 +19,7 @@
 
         body {
             width: 100%;
-            height: 200vh;
+            height: 100%;
         }
 
         header {
@@ -463,7 +463,8 @@
                         </div>
                         <div class="card-text">
                             <p>Surat Pengantar Izin Penelitian</p>
-                            <p>Manfaatkan layanan kami untuk mempercepat proses pengajuan surat pengantar izin penelitian dan fokuslah pada penelitianmu.</p>
+                            <p>Manfaatkan layanan kami untuk mempercepat proses pengajuan surat pengantar izin
+                                penelitian dan fokuslah pada penelitianmu.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
@@ -473,7 +474,8 @@
                         </div>
                         <div class="card-text">
                             <p>Permintaan Data MK/PKL/TA</p>
-                            <p>Pengajuan surat permintaan data mata kuliah/praktek kerja lapangan/tugas akhir mahasiswa FT ULM.</p>
+                            <p>Pengajuan surat permintaan data mata kuliah/praktek kerja lapangan/tugas akhir mahasiswa
+                                FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
@@ -483,7 +485,8 @@
                         </div>
                         <div class="card-text">
                             <p>Surat Tugas KP/TA</p>
-                            <p>Pengajuan tugas untuk kerja praktek/tugas akhir mahasiswa Fakultas Teknik Universitas Lambung Mangkurat.</p>
+                            <p>Pengajuan tugas untuk kerja praktek/tugas akhir mahasiswa Fakultas Teknik Universitas
+                                Lambung Mangkurat.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
@@ -493,7 +496,8 @@
                         </div>
                         <div class="card-text">
                             <p>MBKM FT ULM</p>
-                            <p>Layanan ini digunakan untuk pendataan dan penerbitan surat tugas pelaksanaan program MBKM FT ULM.</p>
+                            <p>Layanan ini digunakan untuk pendataan dan penerbitan surat tugas pelaksanaan program MBKM
+                                FT ULM.</p>
                         </div>
                     </div>
                 </div>

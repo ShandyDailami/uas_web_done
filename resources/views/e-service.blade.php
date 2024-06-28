@@ -19,7 +19,7 @@
 
         body {
             width: 100%;
-            height: 200vh;
+            height: 100%;
         }
 
         header {
@@ -125,23 +125,6 @@
             font-size: 1rem;
         }
 
-        .e-service {
-            display: block;
-            margin: 10px 0;
-            padding: 10px 15px;
-            font-size: 1rem;
-            border-radius: 8px;
-            color: #0E8BCA;
-            background-color: #BAE6FD;
-            font-weight: 500;
-        }
-
-        .e-service i {
-            color: #0E8BCA;
-            margin-right: 15px;
-            font-size: 1.2rem;
-        }
-
         .menu a {
             width: 100%;
             display: block;
@@ -149,7 +132,14 @@
             padding: 10px 15px;
             font-size: 1rem;
             border-radius: 8px;
+            color: #91A0B6;
             font-weight: 500;
+        }
+
+        .menu i {
+            color: #91A0B6;
+            margin-right: 15px;
+            font-size: 1.2rem;
         }
 
         .layanan a,
@@ -176,7 +166,22 @@
             margin-right: 15px;
         }
 
+        .active {
+            color: #0E8BCA !important;
+            background-color: #BAE6FD;
+        }
+
+        .active i {
+            color: #0E8BCA !important;
+        }
+
+        .active:hover {
+            background-color: #BAE6FD !important;
+        }
+
         main {
+            width: 100%;
+            height: 100%;
             background-color: #F8FAFC;
             padding: 30px 20px;
         }
@@ -205,96 +210,41 @@
             color: #91A0B6;
         }
 
-        .box-peringatan {
-            display: flex;
-            margin: 30px 0;
-            padding: 15px 20px;
-            background-color: #FFF7ED;
-            gap: 10px;
-            border-radius: 5px;
-        }
-
-        .box-peringatan i {
-            color: #FA934B;
-        }
-
-        .box-peringatan-text p:nth-child(1) {
-            color: #414c5a;
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
-
-        .box-peringatan-text a {
-            color: #0E8BCA;
-            text-decoration: underline;
-        }
-
-        .box-peringatan-text p:nth-child(2) {
-            font-size: .9rem;
-            color: #848B95;
-            line-height: 25px;
-        }
-
-        .box-selamat-datang {
-            background-color: #26AEEB;
-            padding: 40px 30px;
+        .urut {
+            text-align: right;
             border-radius: 5px;
             margin-bottom: 30px;
         }
 
-        .box-selamat-datang p:nth-child(1) {
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: #fff;
-            margin-bottom: 15px;
-        }
-
-        .box-selamat-datang p:nth-child(2) {
-            width: 50%;
-            color: #fff;
-            font-size: .9rem;
-        }
-
-        .ringkasan {
-            margin-bottom: 30px;
-        }
-
-        .ringkasan p:nth-child(1),
-        .fitur p:nth-child(1) {
-            color: #91A0B6;
-            font-weight: 500;
+        .urut label {
             margin-bottom: 10px;
-        }
-
-        .ringkasan-card-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .ringkasan-card {
-            width: 20%;
-            background-color: #fff;
-            padding: 20px 0 15px 20px;
-            border-radius: 5px;
-        }
-
-        .ringkasan-card p:nth-child(1) {
-            color: #26AEEB;
-            font-size: 1.5rem;
-            margin-bottom: 0;
-        }
-
-        .ringkasan-card p:nth-child(2) {
-            color: #848B95;
+            font-weight: 500;
             font-size: .9rem;
+            color: #b2b8c0;
+        }
+
+        .urut select,
+        option {
+            border: 2px #E2E8F0 solid;
+            width: 230px;
+            height: 50px;
+            border-radius: 10px;
+            padding-left: 15px;
+            font-size: .9rem;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .urut select,
+        option::placeholder {
+            color: #caced4;
         }
 
         .fitur-card-wrapper {
+            width: 1000px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 15px;
+            gap: 25px;
         }
 
         .fitur-card {
@@ -378,12 +328,12 @@
             <div class="menu">
                 <p>Menu</p>
                 <div class="btn">
-                    <a href="" class="active"><i class="bi bi-grid"></i> Dashboard</a>
+                    <a href="{{ route('/dashboard') }}"><i class="bi bi-grid"></i> Dashboard</a>
                 </div>
             </div>
             <div class="layanan">
                 <p>Layanan</p>
-                <a class="e-service" href="{{ route('/e-service') }}"><i class="bi bi-envelope"></i> e-Service</a>
+                <a class="active" href="{{ route('/e-service') }}"><i class="bi bi-envelope"></i> e-Service</a>
                 <a href=""><i class="bi bi-chat-square-text"></i> e-Command Center</a>
                 <a href=""><i class="bi bi-display"></i></i> e-Response</a>
                 <a href=""><i class="bi bi-credit-card"></i> e-Commerce</a>
@@ -399,50 +349,20 @@
         </nav>
         <main>
             <div class="title">
-                <i class="bi bi-grid"></i>
+                <i class="bi bi-envelope"></i>
                 <div class="text">
-                    <p>Dashboard</p>
-                    <p>Akses menu dan informasi penting lainnya di sini</p>
+                    <p>Layanan e-Service</p>
+                    <p>Inovasi Layanan Publik Eksternal/Internal FT ULM</p>
                 </div>
             </div>
-            <div class="box-peringatan">
-                <i class="bi bi-exclamation-triangle"></i>
-                <div class="box-peringatan-text">
-                    <p>Kamu belum mengisi kuisioner pada periode semester ini, silahkan isi kuisioner <a
-                            href="">Disini</a></p>
-                    <p>Kamu tidak dapat melakukan pengajuan layanan jika belum mengisi kuisioner. Oleh karena itu, kami
-                        mengharapkan agar setiap mahasiswa mengisi kuisioner pada awal setiap semester sebagai bagian
-                        dari proses yang diperlukan untuk memberikan pelayanan yang terbaik dan peningkatan kualitas
-                        serta evaluasi layanan FT ULM</p>
-                </div>
-            </div>
-            <div class="box-selamat-datang">
-                <p>Selamat Datang Shandy!</p>
-                <p>Di website ini kamu dapat mengajukan layanan dan mengecek status pengajuannya</p>
-            </div>
-            <div class="ringkasan">
-                <p>Ringkasan</p>
-                <div class="ringkasan-card-wrapper">
-                    <div class="ringkasan-card">
-                        <p>4</p>
-                        <p>Layanan diajukan</p>
-                    </div>
-                    <div class="ringkasan-card">
-                        <p>2</p>
-                        <p>Menunggu persetujuan</p>
-                    </div>
-                    <div class="ringkasan-card">
-                        <p>1</p>
-                        <p>Layanan disetujui</p>
-                    </div>
-                    <div class="ringkasan-card">
-                        <p>1</p>
-                        <p>Layanan ditolak</p>
-                    </div>
-                </div>
+
+            <div class="urut">
+                <label for="urut">Urutkan sesuai : </label>
+                <select name="urut" id="urut">
+                    <option value="" disabled selected>Nama Layanan (A-Z)</option>
+                </select>
             </div>
             <div class="fitur">
-                <p>Mungkin yang kamu butuhkan</p>
                 <div class="fitur-card-wrapper">
                     <div class="fitur-card">
                         <div class="card-img">
@@ -464,6 +384,171 @@
                             <p>Surat Pengantar Izin Pkl</p>
                             <p>Bersiaplah untuk Pengalaman Belajar di Dunia Nyata, manfaatkan Laayanan Pengajuan Surat
                                 Pengantarr izin PKL kami</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Pengantar Izin Pkl</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Pengantar Izin Pkl</p>
+                            <p>Bersiaplah untuk Pengalaman Belajar di Dunia Nyata, manfaatkan Laayanan Pengajuan Surat
+                                Pengantarr izin PKL kami</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
+                        </div>
+                    </div>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Keterangan Lulus</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Keterangan Lulus</p>
+                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
+                                Kami.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
