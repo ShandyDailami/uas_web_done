@@ -367,144 +367,131 @@
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Izin Penelitian TA di Lab FT</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Izin Penelitian TA di Lab FT</p>
+                            <p>Layanan ini digunakan untuk pengajuan surat izin penelitian tugas akhir di laboratorium Fakultas Teknik ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Pengantar Izin Pkl</p>
+                            <p>Kendali Kegiatan Ormawa</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Pengantar Izin Pkl</p>
-                            <p>Bersiaplah untuk Pengalaman Belajar di Dunia Nyata, manfaatkan Laayanan Pengajuan Surat
-                                Pengantarr izin PKL kami</p>
+                            <p>Kendali Kegiatan Ormawa</p>
+                            <p>Layanan ini digunakan untuk pengajuan proposal atau laporan kegiatan organisasi mahasiswa FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Keterangan Bebas Lab & Perpus</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Keterangan Bebas Lab & Perpus</p>
+                            <p>Digunakan untuk pengujian surat keterangan bebas lab dan perpus di lingkungan FT sebagai persyaratan wisuda mahasiswa FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Kotak Pos FT</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Kotak Pos FT</p>
+                            <p>Layanan ini disediakan untuk memberikan kemudahan bagi para pihak dalam menjalin komunikasi dengan pihak FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Legalisir Akreditasi Program Studi</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Legalisir Akreditasi Program Studi</p>
+                            <p>Layanan ini digunakan untuk pengajuan legalisir akreditasi program studi untuk kebutuhan dokumen legal bertanda tangan.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Legalisir Ijazah</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Legalisir Ijazah</p>
+                            <p>Layanan ini digunakan untuk pengajuan legalisir ijazah secara online dan dapat diambil secara offline atau dikirim melalui COD.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Legalisir Transkrip Akademik</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Legalisir Transkrip Akademik</p>
+                            <p>KLayanan ini digunakan untuk pengajuan legalisir transkrip nilai secara online dan dapat diambil secara offline atau melalui COD.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Pengantar Izin Pkl</p>
+                            <p>MBKM FT ULM</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Pengantar Izin Pkl</p>
-                            <p>Bersiaplah untuk Pengalaman Belajar di Dunia Nyata, manfaatkan Laayanan Pengajuan Surat
-                                Pengantarr izin PKL kami</p>
+                            <p>MBKM FT ULM</p>
+                            <p>Layanan ini digunakan untuk pendataan dan penerbitan surat tugas pelaksanaan program MBKM FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Permintaan Data MK/PKL/TA</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Permintaan Data MK/PKL/TA</p>
+                            <p>Pengajuan surat permintaan data mata kuliah/praktek kerja lapangan/tugas akhir mahasiswa FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Permintaan Tenaga Ahli</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Permintaan Tenaga Ahli</p>
+                            <p>Layanan pengajuan permintaan tenaga ahli yang berada di lingkungan Fakultas Teknik Universitas Lambung Mangkurat.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Perubahan Kategori UKT</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Perubahan Kategori UKT</p>
+                            <p>Layanan ini digunakan untuk mahasiswa yang ingin mengajukan perubahan kategori UKT.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Surat Aktif Kuliah</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Surat Aktif Kuliah</p>
+                            <p>Layanan untuk mahasiswa yang ingin mendapatkan dokumen resmi surat aktif kuliah dari Fakultas Teknik ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Surat Keterangan Ijazah/Transkrip</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Surat Keterangan Ijazah/Transkrip</p>
+                            <p>Layanan ini digunakan untuk pengajuan surat keterangan kehilangan, kerusakan, atau ralat penulisan ijazah/transkrip.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
@@ -514,85 +501,78 @@
                         </div>
                         <div class="card-text">
                             <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Dapatkan surat kelulusanmu dengan mudah melalui layanan pengajuan surat keterangan lulus
+                                kami.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Surat Pengantar Izin Penelitian</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Surat Pengantar Izin Penelitian</p>
+                            <p>Manfaatkan layanan kami untuk mempercepat proses pengajuan surat pengantar izin penelitian dan fokuslah pada penelitianmu.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Surat Pengantar Izin PKL</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Surat Pengantar Izin PKL</p>
+                            <p>Bersiaplah untuk pengalaman belajar di dunia nyata, manfaatkan layanan pengajuan surat pengantar izin PKL kami.</p>
+                        </div>
+                    </div>
+                    <a class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Rekomendasi Mahasiswa</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Rekomendasi Mahasiswa</p>
+                            <p>Pengajuan surat rekomendasi untuk keperluan penggantian KTM, lomba, beasiswa, pengajuan cuti akademik, dan lainnya.</p>
+                        </div>
+                    </a>
+                    <div class="fitur-card">
+                        <div class="card-img">
+                            <p>e-Service</p>
+                            <p>Surat Tugas</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Surat Tugas</p>
+                            <p>Layanan ini digunakan oleh dosen untuk mengajukan permohonan surat tugas secara online.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Surat Tugas PKL/TA</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Surat Tugas PKL/TA</p>
+                            <p>Pengajuan surat tugas untuk kerja praktek/tugas akhir mahasiswa Fakultas Teknik Universitas Lambung Mangkurat.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Sertifikasi Uji Plagiasi Artikel Jurnal TA</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Sertifikasi Uji Plagiasi Artikel Jurnal TA</p>
+                            <p>Pengajuan sertifikat uji plagiasi artikel/jurnal/tugas akhir mahasiswa FT ULM sebagai persyaratan wisuda mahasiswa FT ULM.</p>
                         </div>
                     </div>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
+                            <p>Ujian Tugas Akhir</p>
                         </div>
                         <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
-                        </div>
-                    </div>
-                    <div class="fitur-card">
-                        <div class="card-img">
-                            <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
-                        </div>
-                        <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
-                        </div>
-                    </div>
-                    <div class="fitur-card">
-                        <div class="card-img">
-                            <p>e-Service</p>
-                            <p>Surat Keterangan Lulus</p>
-                        </div>
-                        <div class="card-text">
-                            <p>Surat Keterangan Lulus</p>
-                            <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
-                                Kami.</p>
+                            <p>Ujian Tugas Akhir</p>
+                            <p>Layanan ini digunakan oleh mahasiswa akhir yang sudah melakukan sidang tugas akhir untuk mengajukan lembar pengesahan.</p>
                         </div>
                     </div>
                 </div>
