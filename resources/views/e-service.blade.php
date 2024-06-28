@@ -540,7 +540,7 @@
                                 Kami.</p>
                         </div>
                     </div>
-                    <div class="fitur-card">
+                    <a href="{{ route('/e-service/rekomendasi') }}" class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>
                             <p>Surat Keterangan Lulus</p>
@@ -550,7 +550,7 @@
                             <p>Dapatkan Surat Kelulusanmu dengan Mudah Melalui Layanan Pengajuan Surat Keterangan Lulus
                                 Kami.</p>
                         </div>
-                    </div>
+                    </a>
                     <div class="fitur-card">
                         <div class="card-img">
                             <p>e-Service</p>

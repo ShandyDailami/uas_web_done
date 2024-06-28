@@ -25,3 +25,6 @@ Route::get('/dashboard', function () {
 Route::get('/e-service', function () {
     return view('e-service');
 })->name('/e-service');
+Route::get('/e-service/rekomendasi', function () {
+    return view('rekomendasi');
+})->name('/e-service/rekomendasi');
