@@ -266,9 +266,9 @@
         </nav>
         <main>
             <div class="container">
-                <header>
+                <div class="container-header">
                     <a href="{{ route('/e-service') }}"><i class="bi bi-chevron-left"></i> Kembali</a>
-                </header>
+                </div>
                 <div class="wrap-content">
                     <div class="content-1">
                         <div class="card">
